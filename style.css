@@ -24,7 +24,10 @@ nav ul li a{ color:white;
              text-decoration: none;
              display:block;
 }
-
+nav ul li a:hover{ 
+color:#6DBD6D;
+  text-shadow: 0px 0px 7px #6DBD6D;
+}
 nav ul li a img{max-width: 100%;
 width: :50px;}
 
