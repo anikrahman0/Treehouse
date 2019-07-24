@@ -1,0 +1,162 @@
+*{
+
+margin:0;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+
+header{background-color:#343A40;}
+nav{}
+nav ul{
+	overflow: hidden;
+text-align: center;}
+nav ul li{
+color:white;
+list-style: none;
+display: inline-block;
+vertical-align: middle;
+	font-family: Darker Grotesque, sans-serif;
+
+}
+nav ul li a{ color:white;
+             padding:12px 15px; 
+             text-decoration: none;
+             display:block;
+}
+
+nav ul li a img{max-width: 100%;
+width: :50px;}
+
+section{
+
+	background-image:url('hill.jpg');
+}
+.container{
+	width: 100%;
+  overflow:hidden;
+  height:100%;
+  background-color:rgba(38, 38, 38,.8);
+
+}
+.img{width:40%;
+float:left;
+color:#fff;
+padding-left:220px;
+padding-top:117px;
+}
+.img img{
+	max-width:100%;
+	display:block;
+	padding:100px 20px;
+
+}
+
+.img h2{
+	
+	font-family: Darker Grotesque, sans-serif;
+}
+
+.img strong{
+	
+	font-family: Darker Grotesque, sans-serif;
+}
+
+.img P{
+	margin:auto;
+	font-family: Darker Grotesque, sans-serif;
+}
+
+.signup{width:23%;
+float:left;
+border-radius:3px;
+background-color: #6DBD6D;
+margin-left:150px;
+margin-top:120px;
+}
+
+.form-box{width: 70%;
+margin:auto;
+height:auto;
+padding-bottom:28px;
+
+}
+
+.form-box h3{
+	padding-top:30px;
+	color:#fff;
+	text-transform:capitalize;
+	max-width:400px;
+	text-decoration-style:unset;
+	text-align: center;
+	font-family: Darker Grotesque, sans-serif;
+
+    font-size:22px;
+	letter-spacing:1px;
+}
+.form-box p{
+	color:#fff;
+	text-transform:capitalize;
+	font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+	text-align:center;
+	font-family: Darker Grotesque, sans-serif;
+}
+.form-box strong{
+	color:#fff;
+	margin-bottom:10px;
+	display:block;
+	
+}
+
+form{}
+form input{width: 100%;
+border:1px solid white;
+margin-bottom: 10px;
+padding: 10px 15px;
+background-color:white;
+color:black;}
+form input:last-child{
+	
+	background-color:#529252;
+	text-transform:upprcase;
+	font-weight:700;
+	letter-spacing:1px;
+	cursor:pointer;
+	border:1px  solid #529252;
+	color:white;
+	font-family: Darker Grotesque, sans-serif;
+
+}
+
+form input:last-child:hover{
+	
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
+}
+
+
+ button{
+	
+	background-color:#6DBD6D;
+	border:none;
+	border-radius:20px;
+	padding:6px;
+	margin-top:12px;
+	font-family: Darker Grotesque, sans-serif;
+	color:white;
+	cursor:pointer;
+	outline:0;
+	letter-spacing:1px;
+	width:110px;
+	
+	
+}
+
+button:hover{
+
+	background-color:#FF5733;
+	color:white;
+}
